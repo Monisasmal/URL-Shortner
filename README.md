@@ -3,6 +3,7 @@
 A simple URL shortener built with Node.js and Express.js, storing shortened URLs in a JSON file.
 
 **Features**
+
 Shorten long URLs into a unique, short link.
 
 Store URLs persistently using a urls.json file.
@@ -14,6 +15,7 @@ Simple and clean UI using HTML & CSS.
 **Installnation Required**
 
 npm i express
+
 npm i nanoid
 
 **🌍 Deploying on Render**
