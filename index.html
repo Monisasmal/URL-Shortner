@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+        text-align: center;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        max-width: 400px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin: auto;
+      }
+      h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      input {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        outline: none;
+      }
+      button {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        background: #ff9f43;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      button:hover {
+        background: #ff6b00;
+      }
+      .shortened-url {
+        margin-top: 20px;
+        font-size: 18px;
+        word-wrap: break-word;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🔗 URL Shortener 🙂</h1>
+      <form action="/shorten" method="POST">
+        <input
+          type="url"
+          name="originalURL"
+          placeholder="Enter your URL here..."
+          required
+        />
+        <button type="submit">Shorten URL</button>
+      </form>
+    </div>
+  </body>
+</html>
