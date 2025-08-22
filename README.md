@@ -2,6 +2,8 @@
 
 A simple URL shortener built with Node.js and Express.js, storing shortened URLs in a JSON file.
 
+---
+
 ## Features
 
 Shorten long URLs into a unique, short link.
