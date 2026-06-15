@@ -34,9 +34,7 @@ Here is the link 👉👉  https://url-shortner-urzm.onrender.com/
 
 ---
 
-🙋‍♀️ Author
-
-## Manaswini Sasmal
+**🙋‍♀️ Author - Manaswini Sasmal**
 
 👩‍💻 Frontend Developer | React Enthusiast
 
